@@ -1,6 +1,6 @@
 # Fine-Tuning GPT-2 for Custom Text Generation
 
-This project demonstrates how to fine-tune a pre-trained GPT-2 model on a custom dataset using Hugging Face's `transformers` library. The goal is to train the model to generate text based on input prompts, which reflects the language style and content from the custom dataset.
+This project demonstrates how to fine-tune a pre-trained GPT-2 model on a custom dataset using Hugging Face's `transformers` library. The goal is to train the model to generate text based on input prompts, reflecting the language style and content from the custom dataset.
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ This project demonstrates how to fine-tune a pre-trained GPT-2 model on a custom
 
 ## Project Overview
 
-This project fine-tunes a GPT-2 model, making it adapt to the text patterns found in a user-provided dataset. By training it on specific data, we can make the model generate text in the style of the dataset. This could be useful for creative writing, chatbot responses, or generating content aligned with specific themes.
+This project fine-tunes a GPT-2 model, making it adapt to the text patterns found in a user-provided dataset. By training it on specific data, we can make the model generate text in the style of the dataset. This can be useful for creative writing, chatbot responses, or generating content aligned with specific themes.
 
 ### Key Features
 
@@ -26,10 +26,11 @@ This project fine-tunes a GPT-2 model, making it adapt to the text patterns foun
 
 ## Installation
 
-Ensure you have Python 3.6 or later installed, along with the necessary libraries. 
+Ensure you have Python 3.6 or later installed.
 
-### Clone the Repository
+### Install Required Libraries
+
+To install the necessary libraries, run the following command:
 
 ```bash
-git clone https://github.com/NeelM47/fine-tune-gpt2.git
-cd fine-tune-gpt2
+pip install torch datasets transformers
